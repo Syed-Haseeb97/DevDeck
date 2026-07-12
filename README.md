@@ -108,39 +108,6 @@ src/
 
 ---
 
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/DevDeck.git
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start the development server
-
-```bash
-npm run dev
-```
-
----
-
-## 🔑 Configuration
-
-Inside the Settings panel you can securely provide:
-
-- GitHub Personal Access Token
-- Vercel API Token
-
-These tokens remain in browser memory and are never transmitted to any server by the application.
-
----
-
 ## 🎯 Roadmap
 
 - AI Assistant
