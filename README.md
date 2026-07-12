@@ -5,7 +5,6 @@
 ![License](https://img.shields.io/badge/status-active-success)
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
