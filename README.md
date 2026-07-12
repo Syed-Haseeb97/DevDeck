@@ -126,18 +126,6 @@ src/
 
 ---
 
-## 📸 Preview
-
-> Add screenshots or GIFs here.
-
-Example:
-
-```
-assets/dashboard.png
-```
-
----
-
 ## 💡 Vision
 
 DevDeck aims to become an AI-powered Developer Operating System that brings together development, deployment, monitoring, automation, and project management into a single, highly customizable workspace.
