@@ -171,8 +171,6 @@ function GithubWidget({ token }) {
   );
 }
 
-// --- Widget: Vercel -----------------------------------------------------------
-
 const STATUS_STYLE = {
   READY: { label: "Production", dot: "bg-emerald-400", pulse: true },
   PROMOTED: { label: "Production", dot: "bg-emerald-400", pulse: true },
@@ -258,7 +256,6 @@ function VercelWidget({ token }) {
   );
 }
 
-// --- Widget: Component Sandbox ------------------------------------------------
 
 const SANDBOX_DEFAULT = `<button class="px-4 py-2 rounded-md bg-amber-400 text-slate-950 font-semibold">
   Ship it
