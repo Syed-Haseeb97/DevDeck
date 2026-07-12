@@ -300,8 +300,6 @@ function SandboxWidget() {
   );
 }
 
-// --- Widget: Kanban Sprint Board ------------------------------------------------
-
 const KANBAN_COLUMNS = [
   { id: "backlog", label: "Backlog" },
   { id: "progress", label: "In Progress" },
