@@ -381,7 +381,6 @@ function KanbanWidget() {
   );
 }
 
-// --- Settings Drawer -----------------------------------------------------------
 
 function SettingsDrawer({ open, onClose, tokens, setTokens, widgets, setWidgets }) {
   const fileInputRef = useRef(null);
