@@ -5,16 +5,6 @@ import {
   ExternalLink, Circle, Maximize2, Eye, EyeOff, AlertTriangle, Terminal,
 } from "lucide-react";
 
-// ---------------------------------------------------------------------------
-// NOTE ON PERSISTENCE
-// This artifact runs in a sandboxed preview with no access to localStorage /
-// sessionStorage. Everything below lives in React state for the session only.
-// The export / import JSON buttons in the Settings drawer are the stand-in
-// for persistence here — download your config, re-upload it next time. If you
-// drop this component into a real app, swap the marked spots for
-// localStorage.getItem / setItem and it will persist across reloads exactly
-// as the original brief describes.
-// ---------------------------------------------------------------------------
 
 const INITIAL_WIDGETS = [
   { id: "github", type: "github", title: "Repositories", icon: Github, span: 6, visible: true },
@@ -38,8 +28,6 @@ function relTime(dateStr) {
   if (days < 30) return `${days}d ago`;
   return new Date(dateStr).toLocaleDateString();
 }
-
-// --- Small building blocks -------------------------------------------------
 
 function BezelHeader({ icon: Icon, title, dragHandleProps, onCycleSize, onToggleVisible, statusColor }) {
   return (
@@ -100,7 +88,6 @@ function EmptyState({ text }) {
   );
 }
 
-// --- Widget: GitHub ----------------------------------------------------------
 
 function GithubWidget({ token }) {
   const [repos, setRepos] = useState([]);
