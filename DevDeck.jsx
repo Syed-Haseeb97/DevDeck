@@ -476,8 +476,6 @@ function SettingsDrawer({ open, onClose, tokens, setTokens, widgets, setWidgets 
   );
 }
 
-// --- Sidebar --------------------------------------------------------------------
-
 function Sidebar({ collapsed, setCollapsed, widgets, setWidgets, onOpenSettings, dark, setDark }) {
   return (
     <div className={`${collapsed ? "w-14" : "w-56"} shrink-0 bg-slate-900 border-r border-slate-800 flex flex-col transition-all duration-200`}>
