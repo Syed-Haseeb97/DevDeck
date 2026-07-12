@@ -521,8 +521,6 @@ function Sidebar({ collapsed, setCollapsed, widgets, setWidgets, onOpenSettings,
   );
 }
 
-// --- App --------------------------------------------------------------------------
-
 export default function DevDeck() {
   const [dark, setDark] = useState(true);
   const [collapsed, setCollapsed] = useState(false);
